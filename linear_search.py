@@ -1,4 +1,4 @@
-def linear_search(list, target):
+def linear_search(numbers, target):
     """
     Returns the index position of the target if found, else returns None
     """
@@ -10,7 +10,7 @@ def linear_search(list, target):
 
 def verify(index):
     if index is not None:
-        print(f"Target found at index: {index}")
+        print(f"Target found at index using linear search: {index}")
     else:
         print("Target not found.")
 
